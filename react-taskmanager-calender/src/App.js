@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import {
   Badge,
   Calendar,
@@ -107,7 +107,11 @@ const App = () => {
   };
 
   return (
-    <Flex vertical align="center" style={{ padding: '20px' }}>
+    <Flex
+      vertical
+      align="center"
+      style={{ padding: '20px', maxHeight: '100vh' }}
+    >
       <div style={{ width: '300px', marginBottom: '20px' }}>
         <DatePickerComponent
           onDateChange={handleDateChange}
