@@ -1,4 +1,5 @@
 # react-antd-event-calender-assignment
+![ezgif-2-6735d2d514](https://github.com/user-attachments/assets/e6330a16-eb8e-4421-8518-5acbd59fef1d)
 
 ## 🌟 프로젝트 소개
 
