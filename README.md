@@ -150,7 +150,6 @@ const toggleEventComplete = (id) => {
       event.id === id ? { ...event, completed: !event.completed } : event
     ),
   }));
-  // ... 생략
 };
 ```
 
@@ -163,7 +162,6 @@ const deleteEvent = (id) => {
     ...prev,
     [dateStr]: prev[dateStr].filter((event) => event.id !== id),
   }));
-  // ... 생략
 };
 ```
 
